@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "langchain": "^0.0.78"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.2.1"
+  }
 }
