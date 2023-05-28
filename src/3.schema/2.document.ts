@@ -1,7 +1,7 @@
 /*
  * @Author: yeertesi
  * @Date: 2023-05-22 07:01:32
- * @LastEditTime: 2023-05-22 07:26:30
+ * @LastEditTime: 2023-05-23 00:34:38
  * @LastEditors: yeertesi
  * @Description: 
  * 语言模型只了解其训练数据中的信息。为了让它回答问题或概括其他信息，您需要将这些信息传递给语言模型。因此，拥有文档的概念非常重要
@@ -35,5 +35,7 @@ const loader = new DirectoryLoader(
   }
 );
 const docs = await loader.load();
+
+// 具体每种文档的读取器，可以参考文档：https://js.langchain.com/docs/modules/indexes/document_loaders/
 
 console.log({ docs });
